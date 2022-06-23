@@ -24,13 +24,13 @@ function Navbar() {
     },
     {
       title: 'Experiences',
-      path: '/',
+      path: '/Experiences',
       icon: <FaIcons.FaCartPlus />,
       cName: 'nav-text'
     },
     {
       title: 'Contact',
-      path: '/',
+      path: '/Contact',
       icon: <IoIcons.IoMdPeople />,
       cName: 'nav-text'
     }]
