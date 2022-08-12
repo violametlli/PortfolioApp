@@ -1,0 +1,41 @@
+.exp
+ {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  margin-left:14%;
+  padding: 3%;
+  text-align: center;
+ 
+ }
+ .blocks{
+    display: flex;
+    margin-top: 2%; 
+ }
+h2{
+   margin-top: 3%;
+   margin-bottom: 0%;
+   font-style: italic;
+   color:aqua;
+}
+
+
+@media screen and (max-width:325px) {
+  
+   .exp{
+      background-color:rgb(28, 27, 27);
+      color: white;
+      margin-top: -20%;
+      display: flex;
+      width: 100%;
+      height: 90vh;}
+
+
+       .blocks{
+      display: flex;
+      margin-top: 2%; 
+      flex-direction: column;
+   }
+           
+   
+       }
