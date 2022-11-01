@@ -72,17 +72,17 @@ export default class Timeline extends React.Component {
       <div>
         <div
           style={{
-            width: "80%",
-            height: "100px",
+            width: "60%",
+            height: "80px",
             margin: "0 auto",
             marginTop: "20px",
-            fontSize: "15px"
+            fontSize: "10px"
           }}
         >
           <HorizontalTimeline
             styles={{
-              foreground: "#00FFFF",
-              outline: "#dfdfdf"
+              foreground: "#FFC30B",
+              outline: "#FFC30B"
             }}
             index={this.state.curIdx}
             indexClick={(index) => {

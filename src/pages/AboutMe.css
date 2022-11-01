@@ -3,13 +3,11 @@
     display: flex;
     color: white;
     font-size: 1rem;
-    margin-left:14%;
     padding: 3%;
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 100vh;
-   
+     
 
 }
 
@@ -17,17 +15,22 @@
     flex: 1.5;
     flex-direction: row;
     padding: 3%;
+    font-size:0.5rem;
+
  
+}
+.profile{
+    border-radius: 0.5rem;
 }  
 
 .flex-child:first-child {
     margin-right: 20px;
     margin-top: 0%;}
 
-    
+   
     @media screen and (max-width:325px) {
         .flex-container{
-            height: 350vh;
+            height: 75vh;
             display: flex;
             flex-direction: column;
            
@@ -35,11 +38,15 @@
         }
         .flex-child:first-child {
             margin-right: 20px;
-            margin-top: 130%;
-        z-index:0;} 
+            margin-top:  15%;} 
         
         
         
         
+
+    }  
+
+    
+    @media only screen and (min-width: 325px) and (max-width: 502px){
 
     }

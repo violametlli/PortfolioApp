@@ -1,20 +1,6 @@
-.app{
-    background-color:rgb(28, 27, 27);
-    display: flex;
-    color: rgb(178, 169, 169);
-    flex-direction: row;
-}
- 
-.section{
-    height: 100vh;
-
-}
- @media screen and (max-width:400px) {
-
-.app{
-    display: block;
-    flex-direction: column;
+ *{
+    background-color:rgb(40, 40, 43);
   
 }
-
-} 
+/*    background-color:rgb(28, 27, 27);
+*/

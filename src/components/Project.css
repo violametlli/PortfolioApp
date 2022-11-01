@@ -1,7 +1,6 @@
 .container{
  padding: 2%;
 margin:3%;
-background-color:rgb(28, 27, 27);
 max-width: 400px;
 text-align: center;
 border-radius: 10px;
@@ -46,7 +45,7 @@ box-shadow: 0 0 10px rgba(0,0,0,0.8);
  }
  .icon:hover{
     cursor: pointer;
-    color:aqua;
+    color:rgb(225, 195, 19);;
     font-size: 1.5em;
      
  }

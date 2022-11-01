@@ -2,7 +2,7 @@ import React from 'react'
 import './Home.css'
 import './AboutMe.css'
 import Letter from"./Letter"
-import  profile from '../profile.jpg'
+import  profile from '../profile.jpeg'
 
 
 function Home() {
@@ -10,8 +10,8 @@ function Home() {
   const lettersDy=["I'", "m", "    ","V", "i","o","l","a,"] ;
   const lettersTre=["W","e","b","     ","D","e","v","e","l","o","p","e","r..."];
   return (
-    <div id ="Home" className='flex-container'>
-    <div className='flex-child first'>
+    <div id ="Home"  >
+   
     <div className='home'>
       <div className='one'>
         {lettersNje.map((letterr, i) => (
@@ -27,13 +27,13 @@ function Home() {
         {lettersTre.map((letterr, i) => (
           <Letter key={i}>{letterr}</Letter>
         ))}</div>
+        <div><button  className="homebtn">Contact Me</button></div>
 
         </div>
-        </div>
 
-        <div className='flex-child second'>
+    {/**    <div className='flex-child second'>
         <img src={profile} className='profile'/>
-        </div>
+        </div> */}
         <div className='layla'>   Layla, im begging darling please...</div>
 
     </div>
