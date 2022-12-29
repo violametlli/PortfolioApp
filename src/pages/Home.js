@@ -36,8 +36,7 @@ function Home() {
     {/**    <div className='flex-child second'>
         <img src={profile} className='profile'/>
         </div> */}
-        <div className='layla'>   Layla, im begging darling please...</div>
-
+ 
     </div>
    
   )

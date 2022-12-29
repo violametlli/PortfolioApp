@@ -27,7 +27,8 @@
     margin-right: 20px;
     margin-top: 0%;
     font-size: 0.9rem;
-padding: 6rem;}
+     padding: 6rem;
+}
 
 .description{
   margin:2rem; 
@@ -37,15 +38,29 @@ padding: 6rem;}
    margin-top: auto; 
 }    
     @media screen and (max-width:505px) {
+        .flex-container {
+            display: flex;
+            color: white;
+            font-size: 1rem;
+            padding: 0%;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+             
+        
+        }
         .flex-child {
-            flex: 0.5;
+            flex: 0.7;
             flex-direction: column;
-            padding: 3%;
+            padding: 1%;
             font-size:0.5rem;
-            margin-top:25px
+            margin-top:50px
         
          
         }
+        .description{
+            margin:0.5rem; 
+          }   
         .flex-child:second-child{
             background-color: antiquewhite;
         }
@@ -55,7 +70,7 @@ padding: 6rem;}
         
         .flex-child:first-child {
             margin-right: 20px;
-            margin-top: 0%;}
+            margin-top: 1%;}
               
         .flex-child:second-child {
             margin-right: 20px;
@@ -67,28 +82,47 @@ padding: 6rem;}
     
     @media only screen and (min-width: 325px) and (max-width: 504px){
         .flex-container{
-            height: 75vh;
+            height: 120vh;
             display: flex;
             flex-direction: column;
+             padding: 1%;
+               
+                 
+            
+            }
            
         
-        }
+        .description{
+            margin:0.5rem; 
+          }   
         .flex-child:first-child {
             margin-right: 20px;
             margin-top:  15%;} 
+            .flex-child:second-child {
+                margin-right:5px;
+                margin-top: 0%;}
+            
 
     }
 
-    @media screen and (max-width:325px) {
+    @media screen and (max-width:354px) {
         .flex-container{
+            height: 220vh;
             display: flex;
             flex-direction: column;
            
         
         }
         .flex-child:first-child {
-            margin-right:20px;
-            padding-top:5%;} 
+            margin-right:1px;
+            padding-top:3%;} 
 
 
-    }
+    }   .description{
+        margin:0.5rem; 
+      }   
+        .flex-child:second-child {
+            margin-right:5px;
+            margin-top: 0%;}
+        
+
