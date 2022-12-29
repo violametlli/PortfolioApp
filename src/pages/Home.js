@@ -8,7 +8,7 @@ import  profile from '../profile.jpeg'
 function Home() {
   const lettersNje = ["H", "i", "i"];
   const lettersDy=["I'", "m", "    ","V", "i","o","l","a,"] ;
-  const lettersTre=["W","e","b","     ","D","e","v","e","l","o","p","e","r..."];
+  const lettersTre=["D","a","t","a","    "        ,"A","n","a","l","y","s","t..."];
   return (
     <div id ="Home"  >
    
@@ -27,7 +27,9 @@ function Home() {
         {lettersTre.map((letterr, i) => (
           <Letter key={i}>{letterr}</Letter>
         ))}</div>
-        <div><button  className="homebtn">Contact Me</button></div>
+        <div><button  className="homebtn"> <a className="homebtn" href="#Contact">
+        Contact Me
+         </a></button></div>
 
         </div>
 

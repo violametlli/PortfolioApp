@@ -25,10 +25,47 @@
 
 .flex-child:first-child {
     margin-right: 20px;
-    margin-top: 0%;}
+    margin-top: 0%;
+    font-size: 0.9rem;
+padding: 6rem;}
 
-   
-    @media screen and (max-width:325px) {
+.description{
+  margin:2rem; 
+}    
+
+.description2{
+   margin-top: auto; 
+}    
+    @media screen and (max-width:505px) {
+        .flex-child {
+            flex: 0.5;
+            flex-direction: column;
+            padding: 3%;
+            font-size:0.5rem;
+            margin-top:25px
+        
+         
+        }
+        .flex-child:second-child{
+            background-color: antiquewhite;
+        }
+        .profile{
+            border-radius: 0.5rem;
+        }  
+        
+        .flex-child:first-child {
+            margin-right: 20px;
+            margin-top: 0%;}
+              
+        .flex-child:second-child {
+            margin-right: 20px;
+            margin-top: 0%;}
+        
+
+    }  
+
+    
+    @media only screen and (min-width: 325px) and (max-width: 504px){
         .flex-container{
             height: 75vh;
             display: flex;
@@ -39,14 +76,19 @@
         .flex-child:first-child {
             margin-right: 20px;
             margin-top:  15%;} 
-        
-        
-        
-        
 
-    }  
+    }
 
-    
-    @media only screen and (min-width: 325px) and (max-width: 502px){
+    @media screen and (max-width:325px) {
+        .flex-container{
+            display: flex;
+            flex-direction: column;
+           
+        
+        }
+        .flex-child:first-child {
+            margin-right:20px;
+            padding-top:5%;} 
+
 
     }

@@ -32,7 +32,7 @@
 .layla{
   font-size: 0.7rem;   
   position: absolute;
-  top: 100%;
+  top: 90%;
   right: 0%;
   font-family: 'Dancing Script', cursive;
   color:beige;
@@ -54,7 +54,7 @@
         animation-duration: 1s;
         animation-fill-mode: both;
         animation-iteration-count: 1;
-        font-size: 50px;
+        font-size: 80px;
         font-weight: bold;
     
       }
@@ -101,7 +101,9 @@
         box-sizing: border-box;
       }
   
-      @media screen and (max-width:325px) {
+      
+
+      @media screen and (max-width:505px) {
         .home{
           color: white;
           font-size: 3rem;
@@ -130,28 +132,61 @@
         .layla{
           font-size: 0.8rem;   
           position: absolute;
-          top:55%;
-          left:auto;
+          top:5%;
+          right:5%;
           font-family: 'Dancing Script', cursive;
           color: aliceblue;
       
           }
         }
 
-        @media only screen and (min-width: 325px) and (max-width: 502px){
+
+        @media only screen and (min-width: 325px) and (max-width: 504px){
+
+          .home{
+            font-weight: 600;
+            margin-top: 15%;
+            padding: 10%;
+            margin-left: auto;
+           }
+        
+          .rubberBand {
+            font-size: 45px;
+            font-weight: bold;
+        
+          }
+          .layla{
+            font-size: 1rem;   
+            position: absolute;
+            top:75%;
+            right:0;
+            font-family: 'Dancing Script', cursive;
+        
+            }
+          } 
+        
+
+
+   @media screen and (max-width: 325px){
           .home{
             font-size: 2rem;
             font-weight: 400;
-            margin-bottom: -39%;
+            margin-bottom: -9%;
             padding: 15%;
-             padding-top: 65%;
-             margin-left: -25%;
+            padding-top: 5%;
+             margin-left: auto;
            }
- 
-            
-          .profile{
-            display: none;
+           .homebtn{
+            background: rgb(225, 195, 19);;
+            text-align: center;
+            padding: 20px;
+            border-radius:  5px;
+            color: #fff;
+            cursor: pointer;
+            width: 100%;    
+            margin-top: 5%;
           }
+         
           .rubberBand {
             font-size: 30px;
             font-weight: bold;

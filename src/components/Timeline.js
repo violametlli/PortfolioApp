@@ -1,5 +1,6 @@
 import React from "react";
 import HorizontalTimeline from "react-horizontal-timeline";
+import "./Timeline.css"
 
 const EXAMPLE = [
   {
@@ -73,16 +74,17 @@ export default class Timeline extends React.Component {
         <div
           style={{
             width: "60%",
-            height: "80px",
+            height: "90px",
             margin: "0 auto",
             marginTop: "20px",
-            fontSize: "10px"
+            fontSize: "13px"
           }}
         >
           <HorizontalTimeline
             styles={{
               foreground: "#FFC30B",
               outline: "#FFC30B"
+              
             }}
             index={this.state.curIdx}
             indexClick={(index) => {
