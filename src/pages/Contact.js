@@ -23,9 +23,9 @@ function Contact() {
     <div className="contact-social"> 
     <h2 className='text'>Contact me!</h2>
     <ul className='social'>
-     <AiIcons.AiFillGithub style={{ fontSize: 30, paddingRight:"10px" }} onClick={()=>window.open('https://github.com/violametlli/portfolio','_blank')}/>   
-    <AiIcons.AiFillLinkedin style={{ fontSize: 30, paddingRight:"10px" }} onClick={()=>window.open('https://github.com/violametlli/portfolio','_blank')}/>
-    <AiIcons.AiFillInstagram style={{ fontSize: 30, paddingRight:"10px" }} onClick={()=>window.open('https://github.com/violametlli/portfolio','_blank')}/>
+     <AiIcons.AiFillGithub style={{ fontSize: 30, paddingRight:"10px" }} onClick={()=>window.open('https://github.com/violametlli','_blank')}/>   
+    <AiIcons.AiFillLinkedin style={{ fontSize: 30, paddingRight:"10px" }} onClick={()=>window.open('https://al.linkedin.com/in/vjola-metlli-3b3570197?trk=public_profile_browsemap','_blank')}/>
+    <AiIcons.AiFillInstagram style={{ fontSize: 30, paddingRight:"10px" }} onClick={()=>window.open('https://instagram.com/viola_metlli?igshid=YWJhMjlhZTc=','_blank')}/>
    </ul></div>
    <div className='form'>
      <form ref={form} onSubmit={sendEmail} >
