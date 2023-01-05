@@ -97,26 +97,30 @@ color: rgb(225, 195, 19);;
        margin-left: auto;  
        margin-right: auto;
 
-   } 
+   } .input, .msg ,textarea{ 
+     
+    margin-left: -10px;
+
+}
   
 }
 
-        @media only screen and (max-width:382px) and (max-width:504px){
+        @media only screen and (max-width:380px) and (max-width:504px){
             .contact {
                 width:100%;
-                height:100%;
+             
               }
               .container34{
-               flex-direction: column;
+               flex-direction: row;
                margin-top:25%; 
-               margin-left: auto;  
+               margin-left:auto;
                margin-right: auto;
            } 
           
         }
 
 
-        @media only screen and (min-width: 325px) and (max-width: 381px){
+        @media only screen and (min-width: 325px) and (max-width: 379px){
             .contact {
                 width:100%;
               }
