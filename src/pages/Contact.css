@@ -108,11 +108,11 @@ color: rgb(225, 195, 19);;
         @media only screen and (min-width:356px) and (max-width:504px){
             .contact {
                 width:100%;
-             margin-top: -4%;
+             margin-top: -24%;
               }
               .container34{
                flex-direction: row;
-               margin-top:-15%; 
+               margin-top:-30%; 
                margin-left:1%;
                margin-right: 1%;
            } 
