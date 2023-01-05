@@ -107,7 +107,7 @@
 
     @media screen and (max-width:354px) {
         .flex-container{
-            height: 260vh;
+            height: 200vh;
             display: flex;
             flex-direction: column;
            
@@ -125,4 +125,14 @@
             margin-right:5px;
             margin-top:-1%;}
         
-
+            @media only screen and (min-width: 353px) and (max-width: 500px){
+                
+                .flex-container{
+                    height:180vh;
+              
+                   
+                
+                }
+                  
+                
+            }
