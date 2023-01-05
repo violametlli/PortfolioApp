@@ -108,7 +108,7 @@ color: rgb(225, 195, 19);;
         @media only screen and (min-width:380px) and (max-width:504px){
             .contact {
                 width:100%;
-             
+             margin-top: -4%;
               }
               .container34{
                flex-direction: row;
