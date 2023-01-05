@@ -90,34 +90,16 @@ color: rgb(225, 195, 19);;
   @media screen and (max-width:324px) {
     .contact {
         width:100%;
-
       }
       .container34{
        flex-direction: column;
-       margin:auto;
        margin-top:-7%;   
-   
+       margin-left: auto;  
+       margin-right: auto;
+
    } 
   
-      .form {
-       padding: 3%;    
-    }
-
-   .btn{
-
-       margin-left:auto;
-    
-   }
-   .input, .msg ,textarea{
- 
-       width: 100%;
-       margin-left: auto;
-
-   }
-  
-        }  
-        
-     
+}
 
         @media only screen and (max-width:382px) and (max-width:504px){
             .contact {
@@ -126,48 +108,25 @@ color: rgb(225, 195, 19);;
               }
               .container34{
                flex-direction: column;
-               margin-top:25%;
-                  
-           
+               margin-top:25%; 
+               margin-left: auto;  
+               margin-right: auto;
            } 
           
-        
-
-
         }
-
-        
 
 
         @media only screen and (min-width: 325px) and (max-width: 381px){
             .contact {
                 width:100%;
-        
               }
               .container34{
                flex-direction: column;
-               margin:auto;
-               margin-top:5%;   
-           
-           } 
+               margin-top:5%; 
+               margin-left: auto;  
+               margin-right: auto;
+            } 
           
-              .form {
-               padding: 3%;    
-            }
-        
-           .btn{
-        
-               margin-left:auto;
-            
-           }
-           .input, .msg ,textarea{
-         
-               width: 100%;
-               margin-left: auto;
-        
-           }
-          
-
 
         }
 
