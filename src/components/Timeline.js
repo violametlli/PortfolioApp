@@ -6,50 +6,49 @@ const EXAMPLE = [
   {
     data: "1999-07-08",
     status: "status",
-    statusB: "I was born",
-    statusE: "Admission Open"
+    statusB: "I was born"
+   
   },
   {
     data: "2003-03-09",
     status: "status",
-    statusB: "You dont have to know :)",
-    statusE: "Done"
+    statusB: "You dont have to know :)"
+    
   },
   {
     data: "2017-06-10",
     status: "status",
-    statusB: "Finished high school",
-    statusE: "Open for Fillup"
+    statusB: "Finished high school"
+  
   },
   {
     data: "2020-07-10",
     status: "status",
-    statusB: "Got gradulated",
-    statusE: "process"
+    statusB: "Got gradulated"
+ 
   },
   {
     data: "2020-09-10",
     status: "status",
-    statusB: "Started working as Salesforce Dev",
-    statusE: "Done"
+    statusB: "Started working as Salesforce Dev"
+  
   },
   {
     data: "2020-12-22",
     status: "status",
-    statusB: "You don't have to know this either :)",
-    statusE: "Done"
+    statusB: "You don't have to know this either :)"
+   
   },
   {
     data: "2021-06-01",
     status: "status",
-    statusB: "Started working as BI Analyst ",
-    statusE: "Done"
+    statusB: "Started working as BI Analyst "
   },
   {
     data: "2022-02-01",
     status: "status",
-    statusB: "Developing react projects when i have time and will ;)",
-    statusE: "Done"
+    statusB: "Developing react projects when i have time and will ;)"
+    
   }
 
 ];
@@ -83,7 +82,7 @@ export default class Timeline extends React.Component {
           <HorizontalTimeline
             styles={{
               foreground: "#FFC30B",
-              outline: "#FFC30B"
+              outline: "#black"
               
             }}
             index={this.state.curIdx}
